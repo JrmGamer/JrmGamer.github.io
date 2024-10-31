@@ -1,124 +1,194 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>The Jrm Site</title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-		<style>
-			.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: blue;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-.button:hover {background-color: purple}
+  <head>
+    <title>Main Web Test</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <style>
+      h1 {
+        color:purple;
+      }
 
-.button:active {
-  background-color: purple;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-		</style>
-	</head>
-		<body style ="background-color:#008000">
-		<table border=1 style="border-color:blue;" align="center" width="25%">
-			<tr>
-				<td align="center">
-					<img src="\images\JRM_Green.png" title="Jrm's Official Site!">
-				</td>
-			</tr>
-		</table>
-		<br>
-		<center>This is the Jrm Site Main Page</center>
-		<h1 style="color:purple;" align="center">
-			What is the Jrm Site?
-		</h1>
-		<p style="color:red;" align="center">
-			<b>
-				The Jrm Site is a website made and used by its creator, Jrm.<br>
-			</b>
-		</p>
-		<br>
-		<h1 style="color:purple;" align="center">
-			What is the Jrm Site used for?
-		</h1>
-		<p style="color:red;" align="center">
-			<b>
-				Nothing really...
-			</b>
-		</p>
-		<h1 style="color:purple;" align="center" title="The text in red below is satire.">
-			Any other information?
-		</h1>
-		<p style="color:red;" align="center" title="For legal reasons this statement is false.">
-			<b>
-				This website is <b>NOT</b> run by the government. Any type<br>
-				of discussion of said topic will result in a lawsuit for<br>
-				defamation of me and anyone related to this project.
-			</b>
-		</p>
-		
-			
-			<br>
-			<br>
-			<table border=1 style="border-color:blue;" align="center" width="50%">
-				<tr>
-					<td>
-						<center><h1 style="color:purple;">Our other pages</h1></center>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<center><h2 style="color:purple;">News Page</h2></center>
-						<center><a href="webpage news.htm"><img src="JNT_Green.png" title="Jrm News Today!"></a></center>
-						<p></p>
-						<p></p>
-						<p></p>
-						<center><h2 style="color:purple;">Food Page</h2></center>
-						<center><a href="webpage food.htm"><img src="\images\JFC_Green.png" title="Jrm Food Company"></a></center>
-						<center><h2 style="color:purple;">Customer Service Page</h2></center>
-						<center><a href="customerservice.html"><img src="\images\CustomService.jpg" title="Customer Service"></a></center>
-						<br>
-						<CENTER><a href="https://scratch.mit.edu/users/Jrmgamin_/"><img src="images\Scratch_Logo.png" width="250px"></a></CENTER>
-					</td>
-				</tr>
-			</table>
-			<br>
-			<hr>
-			<br>
-			<br>
-				<h6 align="center">
-					FYI: The customer service page has been having some issues according to some users.
-				</h6>
-			<pre>
-			
-			
-			
-			</pre>
-			<center>
-			<a href="gif.html">gif.html</a>
-			<br>
-			<a href="Extra">Test</a>
-			</center>
-			<br>
-			<br>
-			<center>
-				<form>
-				<input type="button" value="Click me" onclick="msg()">
-					</form>
+      p {
+        color:blue;
+      }
 
-					<script>
-					function msg() {
-					  alert("Beware: He's in your walls.");
-					}
-					</script>
-			</center>
-		</body>
+      .blueBorder{
+        border-color:blue;
+      }
+
+	.button1{
+	  background-color: black;
+	  font-size: 20px;
+	  border-radius: 12px;
+	  border: 2px solid #e7e7e7;
+	  color:white;
+	  width: 250px;
+	}
+
+	.button1:hover{
+	  background-color:white;
+	  color:black;
+	}
+
+	.button2{
+	  background-color: green;
+	  font-size: 20px;
+	  border-radius: 12px;
+	  border: 2px solid #04AA6D;
+	  color: blue;
+	  width: 250px;
+	}
+
+	.button2:hover{
+	  background-color:blue;
+	  color:green;
+	}
+    </style>
+  </head>
+  <body style="background-color:green;">
+    <table border=1 align="center" width="90%" class="blueBorder">
+      <td align="center">
+        <img src="images/JRM.png" title="Or is it?" >
+        <h1>Welcome to the Jrm Site!</h1>
+      </td>
+    </table>
+    <table align="center">
+      <td align="center">
+        <p>
+          This is the Official Jrm Site.<br>
+          Feel free to browse!
+          <br>
+          The Jrm site is a site for all that find their way here.<br>
+          It serves no real purpose other than messing around.<br>
+          A test website for a novice.<br>
+        </p>
+      </td>
+    </table>
+    <table border=1 class="blueBorder" align="center" width="50%">
+      <tr>
+        <td align="center">
+          <h1><b>Webpages:</b></h1>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <h1>The Jrm News Today!</h1>
+	  <a hrf="webpage news.htm">
+          <img src="images/JNT.png" title="JNT News!" width="250px">
+	  </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+	  <a hrf="webpage food.htm">
+          <h1>The Jrm Food Company</h1>
+          <img src="images/JFC.png" title="The JFC!" width="250px">
+	  </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+	  <a hrf="customerservice.html">
+          <h1 title="A little broken ngl...">Customer Service</h1>
+          <img src="images/CustomService.png" title="Customer Service!" width="250px">
+	  </a>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr>
+    <center>
+		<a href="gif.html">gif.html</a>
+    </center>
+    <center>
+	<form>
+		<input type="button" value="Click me" onclick="msg()">
+	</form>
+	<script>
+		function msg() {
+		  alert("Beware: He's in your walls.");
+		}
+	</script>
+    </center>
+    <table align="center">
+      <tr>
+        <td align="center">
+          <button type="button" onClick="colorGreen()" class="button2">Green Mode</button>
+          <script>
+        			function colorGreen(){
+        				document.body.style.backgroundColor= "green";
+        				return false;
+              }
+			  </script>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <button type="button" onClick="colorBlack()" class="button1">Dark Mode</button>
+          <script>
+      			function colorBlack()
+      				{   
+      					document.body.style.backgroundColor= "black";
+      					return false;
+      				}
+    			</script>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
+<!Lyrics of Red Sun in the Sky:
+
+Tiānshàng tàiyang hóng ya hóngtōngtōng ēi
+Xīnzhōng de tàiyang shì máozédōng ēi
+Tā lǐngdǎo wǒmen dé jiěfàng ēi
+Rénmín fānshēn dāngjiāzuòzhǔ rén
+Yīya yī zhī yōu wèi
+Ya ér ya zhī yōu ā
+Rénmín fānshēn dāngjiāzuòzhǔ rén
+
+Tiānshàng tàiyang hóng ya hóngtōngtōng ēi
+Xīnzhōng de tàiyang shì máozédōng ēi
+Tā lǐngdǎo wǒmen fènyǒng xiàngqián jìn ēi
+Gémìng jiāngshān yì yē yí piàn hóng ēi
+Yīya yī zhī yōu wèi
+Ya ér ya zhī yōu ā
+Gémìng jiāngshān yí piàn hóng
+
+Wǒmen xīnzhōng de hóng tàiyang
+Zhàodé biānjiāng yí piàn hóng
+Cháng bǎi qiānlǐ gēshēng liáoliàng
+Hǎi lán jiāngpàn hóngqí fēiyáng
+Qiān tiáo jiānghé guī dàhǎi
+Wàn duǒ kuíhuā xiàngyáng kāi
+Yánbiān rénmín zòngqíng gēchàng
+Wǒmen xīnzhōng de hóng tàiyang
+Āi… máozhǔxí
+Wǒmen wúxiàn rèài nín
+Nínde jiàodǎo láojì xīnshàng
+Yánbiān rénmín zhùyuàn nín
+Wànshòuwújiāng wànshòuwújiāng
+
+Tiānshàng tàiyang hóng ya hóngtōngtōng ēi
+Xīnzhōng de tàiyang shì máozédōng ēi
+Tā lǐngdǎo wǒmen dé jiěfàng ēi
+Rénmín fānshēn dāngjiāzuòzhǔ rén
+Yīya yī zhī yōu wèi
+Ya ér ya zhī yōu ā
+Rénmín fānshēn dāngjiāzuòzhǔ rén
+
+Tiānshàng tàiyang hóng ya hóngtōngtōng ēi
+Xīnzhōng de tàiyang shì máozédōng ēi
+Tā lǐngdǎo wǒmen fènyǒng xiàngqián jìn ēi
+Gémìng jiāngshān yì yē yí piàn hóng ēi
+Yīya yī zhī yōu wèi
+Ya ér ya zhī yōu ā
+Gémìng jiāngshān yí piàn hóng
+
+Tiānshàng tàiyang hóng ya hóngtōngtōng ēi
+Xīnzhōng de tàiyang shì máozédōng ēi
+Tā lǐngdǎo wǒmen dé jiěfàng ēi
+Tā lǐngdǎo wǒmen fènyǒngqiánjìn ēi
+Gémìng jiāngshān yì ya yí piàn hóng ēi
+Suō lā lā zǐ suō lā lā zǐ
+Yì ya yí piàn hóng ēi>
